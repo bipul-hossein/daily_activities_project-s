@@ -1,0 +1,20 @@
+
+.activity{
+    width: 270px;
+    padding: 5px;
+    border: 1px solid orange;
+
+}
+
+.activity img{
+    width: 270px;
+}
+.activity button{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+}
+.activity button:hover{
+    background-color: aqua;
+}

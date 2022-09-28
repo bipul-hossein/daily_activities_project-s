@@ -1,0 +1,50 @@
+[
+    {
+      "id": 101,
+      "name": "workout",
+      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?   ",
+      "age": "18-27",
+      "time_required": 40,
+      "img": "logo192.png"
+    },
+    {
+      "id": 102,
+      "name": "workout2",
+      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "age": "18-27",
+      "time_required": 30,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    },
+    {
+      "id": 103,
+      "name": "workout3",
+      "activities_details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "age": "18-27",
+      "time_required": 20,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    },
+    {
+      "id": 104,
+      "name": "workout4",
+      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "age": "18-27",
+      "time_required": 10,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    },
+    {
+      "id": 105,
+      "name": "workout5",
+      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "age": "18-27",
+      "time_required": 22,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    },
+    {
+      "id": 106,
+      "name": "workout6",
+      "activities_details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "age": "18-27",
+      "time_required": 21,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+    }
+  ]
