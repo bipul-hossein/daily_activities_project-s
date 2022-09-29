@@ -3,7 +3,7 @@ import './App.css';
 import Activities from './Components/Activities/Activities';
 import Cart from './Components/Cart/Cart';
 import { useState } from 'react';
-import { addToDb } from './Components/FakeData/fakedb';
+import Question from './Components/Question/Question';
 
 function App() {
   const [cart, setCart] = useState([])
@@ -20,6 +20,7 @@ function App() {
         <Activities handleCart={handleAddToCart}></Activities>
         <Cart exeTime={cart}></Cart>
       </div>
+      <Question></Question>
     </div>
   );
 }
