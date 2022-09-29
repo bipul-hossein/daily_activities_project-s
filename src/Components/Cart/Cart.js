@@ -8,7 +8,7 @@ const Cart = ({ exeTime }) => {
     for (const time of exeTime) {
         totalTime = totalTime + time
     }
-    const [rest, setRest]=useState(0)
+    const [rest, setRest]=useState(40)
     const handleBreak = (e)=>{
         setRest(e)
     }
@@ -39,16 +39,18 @@ const Cart = ({ exeTime }) => {
             <div>
                 <h2>Add A Break</h2>
                 <div className='break'>
-                    <h3 onClick={()=>handleBreak(20)}>20</h3>
-                    <h3 onClick={()=>handleBreak(55)}>55</h3>
-                    <h3 onClick={()=>handleBreak(25)}>25</h3>
-                    <h3 onClick={()=>handleBreak(40)}>40</h3>
+                    
+                    <h3 onClick={()=>handleBreak(55)}>55m</h3>
+                    <h3 onClick={()=>handleBreak(40)}>40m</h3>
+                    <h3 onClick={()=>handleBreak(25)}>25m</h3>
+                    <h3 onClick={()=>handleBreak(20)}>20m</h3>
+                   
                 </div>
             </div>
             <div className='exercise-container'>
                 <h2>Exercise Details</h2>
-                <div className='exercise-details'><h3>Exercise Time</h3><span className='exercise-field'>{totalTime}</span></div>
-                <div className='exercise-details'><h3>Break Time</h3><span className='exercise-field'>{rest}</span></div>
+                <div className='exercise-details'><h3>Exercise Time</h3><span className='exercise-field'>{totalTime} Minutes</span></div>
+                <div className='exercise-details'><h3>Break Time</h3><span className='exercise-field'>{rest} Minutes</span></div>
                 <button onClick={()=>handle()} >Activity Completed</button>
                 
             </div>

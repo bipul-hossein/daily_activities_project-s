@@ -12,7 +12,7 @@ const Activity = (props) => {
            <p className='activity-header'>{name}</p>
             <p>{activities_details.slice(0, 79)}</p>
             <p>For Age : {age}</p>
-            <p>Time required : {time_required}</p>
+            <p>Time required : {time_required} Minutes</p>
            </div>
             <button className='btn' onClick={() => handleAddToCart(time_required)}>Add To List</button>
 
