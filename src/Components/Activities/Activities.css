@@ -3,3 +3,16 @@
     grid-template-columns: auto auto auto;
     gap:20px;
 }
+
+
+.home-container{
+    text-align: start;
+    background-color: aliceblue;
+}
+.home-container h1{
+color: orange;
+
+}
+.select-par{
+    font-size: 30px;
+}

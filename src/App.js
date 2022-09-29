@@ -3,13 +3,17 @@ import './App.css';
 import Activities from './Components/Activities/Activities';
 import Cart from './Components/Cart/Cart';
 import { useState } from 'react';
+import { addToDb } from './Components/FakeData/fakedb';
 
 function App() {
   const [cart, setCart] = useState([])
   const handleAddToCart = (exerciseTime) => {
     const newCart = [...cart, exerciseTime]
     setCart(newCart)
+    //console.log(newCart)
+    
   }
+
   return (
     <div className="App">
       <div className='container'>

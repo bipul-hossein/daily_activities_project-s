@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { addToDb } from '../FakeData/fakedb';
 import './Cart.css'
 
-const Cart = (props) => {
-    const { exeTime } = props
+const Cart = ({ exeTime }) => {
     let totalTime = 0;
     for (const time of exeTime) {
         totalTime = totalTime + time
@@ -11,11 +11,13 @@ const Cart = (props) => {
     const handleBreak = (e)=>{
         setRest(e)
     }
-
+    addToDb(rest)
+    
+    //console.log(rest)
     return (
         <div className='cart-container'>
             <div className='own-profile'>
-                <img src="logo192.png" alt="" />
+                <img src="my-bg (1).png" alt="" />
                 <div className='name-prop'>
                     <h3>MD BIPUL HOSSAIN</h3>
                     <p>jessore, Bangladesh</p>

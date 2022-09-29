@@ -1,50 +1,50 @@
 [
     {
       "id": 101,
-      "name": "workout",
-      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?   ",
-      "age": "18-27",
+      "name": "Morning Walk",
+      "activities_details": "Morning walks tend to start and end your day in a good mood. They can also help your creativity. Studies have shown that getting up and moving helps you be more creative than sitting. Walking also helps you get better sleep, which results in an overall better mood the next morning.",
+      "age": "all ages",
       "time_required": 40,
-      "img": "logo192.png"
+      "img": "jordan-mcqueen-956I1peiMi4-unsplash.jpg"
     },
     {
       "id": 102,
-      "name": "workout2",
-      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "name": "Yoga",
+      "activities_details": "The relaxation techniques incorporated in yoga can lessen chronic pain, such as lower back pain, arthritis, headaches and carpal tunnel syndrome,” explains Dr. Nevins. “Yoga can also lower blood pressure and reduce insomnia.",
       "age": "18-27",
       "time_required": 30,
-      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+      "img":"kike-vega-F2qh3yjz6Jk-unsplash.jpg"
     },
     {
       "id": 103,
-      "name": "workout3",
-      "activities_details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "name": "Free-Hand Exercise",
+      "activities_details":"Free hand exercises are those exercises that are done without the help of any special equipment. These are also known as callisthenics. You perform these exercises without equipment and fuss, only using your bare hands. While doing free hand exercises, you rely on your body weight. These exercises are effective to strengthen and tone your muscles and internal organs, relieving stiffness and pain through hand movements.",
       "age": "18-27",
       "time_required": 20,
-      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+      "img": "https://manmatters.com/blog/content/images/size/w1000/2022/01/Untitled-design--4-.png"
     },
     {
       "id": 104,
-      "name": "workout4",
-      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "name": "Forearm plank",
+      "activities_details": "A full-body exercise that requires strength and balance, planks put the core into overdrive. Directions: Assume a plank position on your forearms.",
       "age": "18-27",
       "time_required": 10,
-      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+      "img": "https://static01.nyt.com/images/2017/03/13/well/move/NYT_Strength-Training_Forearm-Plank_Howard_Final/NYT_Strength-Training_Forearm-Plank_Howard_Final-jumbo-v2.jpg"
     },
     {
       "id": 105,
-      "name": "workout5",
-      "activities_details": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "name": "Pushups",
+      "activities_details": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise",
       "age": "18-27",
       "time_required": 22,
-      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+      "img":"https://www.kreedon.com/wp-content/uploads/2021/08/oYDbf5hQAePHEBNZTQMXRA.jpg"
     },
     {
       "id": 106,
-      "name": "workout6",
-      "activities_details":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum porro enim quibusdam illum unde ut minima iure harum. Dignissimos, quo?",
+      "name": "Lunge",
+      "activities_details":"A lunge can refer to any position of the human body where one leg is positioned forward with knee bent and foot flat on the ground while the other leg is positioned behind.",
       "age": "18-27",
       "time_required": 21,
-      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+      "img":"https://www.verywellfit.com/thmb/2OyKSEj69_Q2j2jqtRgm2LqsR4I=/1500x1000/filters:fill(auto,1)/Lunges_unannotated1-399b9230f4154a30ad89034ba260fc1b.jpg"
     }
   ]

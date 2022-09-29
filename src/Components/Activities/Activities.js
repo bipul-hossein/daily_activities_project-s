@@ -14,8 +14,9 @@ useEffect(()=>{
 
 
     return (
-        <div>
-            <h1>Activities</h1>
+        <div className='home-container'>
+            <h1>Daily Exercise Activities</h1>
+            <p className='select-par'>Select today’s exercise</p>
             <div className='activity-container'>
             {
                 activities.map(activity => <Activity key={activity.id} singleActivity={activity} handleAddToCart={handleCart}></Activity>)           

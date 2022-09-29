@@ -2,19 +2,29 @@
 .activity{
     width: 270px;
     padding: 5px;
-    border: 1px solid orange;
-
+    position: relative;
+    text-align: start;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #120b0b85;
 }
 
 .activity img{
     width: 270px;
+    height: 170px;
+    border-radius: 10px;
 }
-.activity button{
+.btn{
     font-size: 20px;
     width: 100%;
     padding: 10px;
     background-color: orange;
+    position: absolute;
+    bottom:0;
+    border-radius: 10px;
+   
+
 }
-.activity button:hover{
+.btn:hover{
     background-color: aqua;
 }
