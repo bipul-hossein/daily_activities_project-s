@@ -8,10 +8,12 @@ const Activity = (props) => {
      
         <div className='activity'>
             <img src={img} alt="" />
-            <p>{name}</p>
+           <div className='activity-details'>
+           <p className='activity-header'>{name}</p>
             <p>{activities_details.slice(0, 79)}</p>
             <p>For Age : {age}</p>
             <p>Time required : {time_required}</p>
+           </div>
             <button className='btn' onClick={() => handleAddToCart(time_required)}>Add To List</button>
 
         </div>

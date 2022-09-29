@@ -1,21 +1,31 @@
 
 
 .activity{
-    width: 270px;
+    width: 300px;
     height: 425px;
-    position: relative;
-    text-align: start;
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid #120b0b85;
-     padding: 5px;
+     border: 1px solid #95A0A7;
+     border-radius: 8px;
+     position: relative;
+}
+.activity-header{
+    font-size: 25px;
+    margin: 0px;
 }
 
-.activity img{
-    width: 270px;
-    height: 170px;
-    border-radius: 10px;
-   
+.activity img {
+    width: 286px;
+    height: 194px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.activity-details{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 .btn{
     font-size: 20px;
@@ -25,7 +35,7 @@
     position: absolute;
     bottom:0;
     border-radius: 10px;
-   
+    border: 0px;
 
 }
 .btn:hover{
