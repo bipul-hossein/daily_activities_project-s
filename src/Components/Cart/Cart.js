@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { addToDb } from '../FakeData/fakedb';
 import './Cart.css'
+import Swal from 'sweetalert2'
 
 const Cart = ({ exeTime }) => {
     let totalTime = 0;
@@ -11,8 +12,15 @@ const Cart = ({ exeTime }) => {
     const handleBreak = (e)=>{
         setRest(e)
     }
-
-
+  
+    const handle = ()=>{
+        Swal.fire(
+            'Congratulations!',
+            'You Activity Completed',
+            'success'
+          )
+    }
+  
     const addToDb = id =>{
         let shoppingCart = {};
     
@@ -34,7 +42,7 @@ const Cart = ({ exeTime }) => {
         // }
         localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
     }
-
+  
    addToDb(rest)
     //console.log(rest)
     return (
@@ -64,8 +72,8 @@ const Cart = ({ exeTime }) => {
                 <h2>Exercise Details</h2>
                 <div className='exercise-details'><h3>Exercise Time</h3><span className='exercise-field'>{totalTime}</span></div>
                 <div className='exercise-details'><h3>Break Time</h3><span className='exercise-field'>{rest}</span></div>
-                <button>Activity Completed</button>
-
+                <button onClick={()=>handle()} >Activity Completed</button>
+                
             </div>
 
         </div>

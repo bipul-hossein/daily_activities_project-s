@@ -2,3 +2,12 @@
     margin: 0 5%;
     text-align: start;
 }
+
+
+  
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+.question-container{
+    width: 100%;
+}
+    }
